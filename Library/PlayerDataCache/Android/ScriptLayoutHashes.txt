@@ -2,7 +2,8 @@ Android
 PlayerPath?
 C:/Users/ANIRBAN/Desktop/com.swipbear.Bookinfo.apk
 SceneListBegin?
-Assets/Scenes/main.unity
+Assets/Scenes/mainScene.unity
+Assets/Scenes/FInal_scene.unity
 SceneListEnd?
 71bb6a6b6c8f052f948db64c7dd3ca4f VuforiaScripts.dll:.BoundingBoxRenderer
 3c08375166df118bd1801438fc36b92f Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
@@ -20,6 +21,7 @@ e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.G
 e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 201e3fde670b00545944bb3db215c80a UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 e7a73f5f78ba6445195ec23b74a1ce2d Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventHandler
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.back_to_main_scene
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 507174d46dacbc5fe45e28485db5dd1e UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -126,6 +128,7 @@ d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.Spa
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.CloudTrackableEventHandler
 b8a5e8091ab0b8861d2add371082c5e0 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 6313f57348386e2fdef13ef6f31d3acc Assembly-CSharp.dll:.AsyncSceneLoader
+3a0e00fe942082621120621a94d8ce08 Assembly-CSharp.dll:.scriptTexttest
 0077fc8e4fbae67f80e80ebd534de5a0 Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 ff1cfd768b207053e073f8002f937b81 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.BackgroundPlaneBehaviour
@@ -161,6 +164,7 @@ fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBe
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.StatusMessage
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.CameraSettings
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.transition_script
 459d42fb71b059f13a8e3124f70f4671 Assembly-CSharp.dll:.Astronaut
 0077fc8e4fbae67f80e80ebd534de5a0 Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 ff1cfd768b207053e073f8002f937b81 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
@@ -212,8 +216,11 @@ a5db3903435dbc695a76ee64f8ff9200 Assembly-CSharp.dll:.MultiTargetTrackableEventH
 5b1483bdfa0005d89605811d68ec2a49 Assembly-CSharp.dll:.ModelTargetsManager
 7125fb122fb7d770e4ee0697b73cfab0 Assembly-CSharp.dll:.UDTEventHandler
 c312fcfdc704c07bde804c0cf8b879eb Assembly-CSharp.dll:.MenuAnimator
+704dcd31abc789439bc3f3cd10b58c2b DOTween.dll:DG.Tweening.Core.DOTweenComponent
+3043290b08d2ce331b80366f9694a5c5 DOTween.dll:DG.Tweening.Core.DOTweenSettings
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer
 34d15a5f28652fc061f6a154086ecbf5 Assembly-CSharp.dll:.NavigationHandler
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.PauseCam
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.MenuOptions
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.OxygenTank
 98f2d5bdc5e6b7386cb59698d88014ce Assembly-CSharp.dll:.VirtualButtonEventHandler
@@ -280,6 +287,7 @@ df434544c9f7b33d1cc7e635b180d279 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.VuMarkTrackableEventHandler
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 5deb05d50bbaea852849b56df66bb301 Assembly-CSharp.dll:.SafeAreaManager
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.mainmenu
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 0077fc8e4fbae67f80e80ebd534de5a0 Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 ff1cfd768b207053e073f8002f937b81 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
@@ -315,6 +323,7 @@ fe10de86e42ce80dc24cf76ac1c87c2a Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.FrameRateSettings
+25156ea0790ca6dbd2ccec9590d6d55c Assembly-CSharp.dll:.uimanager
 0077fc8e4fbae67f80e80ebd534de5a0 Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 ff1cfd768b207053e073f8002f937b81 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.BackgroundPlaneBehaviour

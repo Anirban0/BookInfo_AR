@@ -1,17 +1,10 @@
-﻿/*===============================================================================
-Copyright (c) 2018 PTC Inc. All Rights Reserved.
-
-Vuforia is a trademark of PTC Inc., registered in the United States and other 
-countries.
-===============================================================================*/
-
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class NavigationHandler : MonoBehaviour
 {
     #region PUBLIC_MEMBERS
-    public string m_BackButtonNavigation = "[Name of Scene To Load]";
+    public string m_BackButtonNavigation = "mainScene";
     #endregion // PUBLIC_MEMBERS
 
 
@@ -34,6 +27,7 @@ public class NavigationHandler : MonoBehaviour
         if (SceneManager.GetActiveScene().name != m_BackButtonNavigation)
             LoadScene(m_BackButtonNavigation);
     }
+    
     #endregion // PUBLIC_METHODS
 
 

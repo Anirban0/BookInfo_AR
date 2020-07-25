@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VuforiaScripts", "VuforiaSc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{0BD9576D-CA23-202B-0309-3D541F9610E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOTween.Modules", "DOTween.Modules.csproj", "{E8DFB244-745A-C3B6-45BE-F8D42588BAE9}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{29E3DB50-B2C7-CE55-8227-EC34E4E3EC7D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VuforiaEditorScripts", "VuforiaEditorScripts.csproj", "{A52E2AA5-EC51-81A1-E1BB-43F601BC8B9F}"
@@ -25,6 +27,10 @@ Global
 		{0BD9576D-CA23-202B-0309-3D541F9610E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BD9576D-CA23-202B-0309-3D541F9610E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BD9576D-CA23-202B-0309-3D541F9610E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8DFB244-745A-C3B6-45BE-F8D42588BAE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8DFB244-745A-C3B6-45BE-F8D42588BAE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8DFB244-745A-C3B6-45BE-F8D42588BAE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8DFB244-745A-C3B6-45BE-F8D42588BAE9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{29E3DB50-B2C7-CE55-8227-EC34E4E3EC7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{29E3DB50-B2C7-CE55-8227-EC34E4E3EC7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29E3DB50-B2C7-CE55-8227-EC34E4E3EC7D}.Release|Any CPU.ActiveCfg = Release|Any CPU

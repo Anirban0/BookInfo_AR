@@ -1,10 +1,4 @@
-﻿/*===============================================================================
-Copyright (c) 2017-2018 PTC Inc. All Rights Reserved.
- 
-Vuforia is a trademark of PTC Inc., registered in the United States and other
-countries.
-===============================================================================*/
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class CloudContentManager : MonoBehaviour
@@ -63,9 +57,8 @@ public class CloudContentManager : MonoBehaviour
 
         cloudTargetInfo.text =
             "Name: " + targetSearchResult.TargetName +
-            "\nRating: " + starRatings[targetSearchResult.TrackingRating] +
-            "\nMetaData: " + ((targetSearchResult.MetaData.Length > 0) ? targetSearchResult.MetaData : "No") +
-            "\nTarget Id: " + targetSearchResult.UniqueTargetId;
+            "\nRating: " + starRatings[3] +
+            "\nCategory: " + ((targetSearchResult.MetaData.Length > 0) ? targetSearchResult.MetaData : "No");
 
         GameObject augmentation = GetValuefromDictionary(Augmentations, targetSearchResult.TargetName);
 
